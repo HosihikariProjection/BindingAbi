@@ -1,6 +1,6 @@
 # Hosihikari.Bindings.Abi
 
-The shared ABI layer for the Hosihikari bindings: value types used by every BindingShim and the managed loader that validates a versioned function table.
+The shared ABI layer for the Hosihikari projection: value types used by every 绑定垫片 and the managed loader that validates a versioned function table.
 
 ## Contents
 
@@ -25,7 +25,7 @@ The table itself stays surface-specific: each Interop assembly generates its own
 
 ## Generate
 
-BindingShims include `hosihikari_abi.h` from their generated shim directory. `Hosihikari/Bindings.Generator` copies this header into each emitted shim when invoked with `--abi-header native/hosihikari_abi.h`.
+绑定垫片s include `hosihikari_abi.h` from their generated shim directory. `Hosihikari/BindingGenerator` copies this header into each emitted shim when invoked with `--abi-header native/hosihikari_abi.h`.
 
 ## Build
 

@@ -25,7 +25,7 @@ Hosihikari 绑定的共享 ABI 层：各绑定垫片共用的值类型，以及�
 
 ## 生成
 
-绑定垫片从生成目录包含 `hosihikari_abi.h`。`Hosihikari/BindingGenerator` 在带 `--abi-header native/hosihikari_abi.h` 发射时把该头文件复制到每个 shim 目录。
+绑定垫片从生成目录包含 `hosihikari_abi.h`。`HosihikariProjection/BindingGenerator` 在带 `--abi-header native/hosihikari_abi.h` 发射时把该头文件复制到每个 shim 目录。
 
 ## 构建
 

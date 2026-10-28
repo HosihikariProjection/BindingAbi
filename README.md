@@ -25,7 +25,7 @@ The table itself stays surface-specific: each Interop assembly generates its own
 
 ## Generate
 
-绑定垫片s include `hosihikari_abi.h` from their generated shim directory. `Hosihikari/BindingGenerator` copies this header into each emitted shim when invoked with `--abi-header native/hosihikari_abi.h`.
+绑定垫片s include `hosihikari_abi.h` from their generated shim directory. `HosihikariProjection/BindingGenerator` copies this header into each emitted shim when invoked with `--abi-header native/hosihikari_abi.h`.
 
 ## Build
 

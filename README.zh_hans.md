@@ -1,5 +1,7 @@
 # Hosihikari.Bindings.Abi
 
+[English](README.md) | [简体中文](README.zh_hans.md)
+
 Hosihikari 绑定的共享 ABI 层：各绑定垫片共用的值类型，以及校验版本化函数表的托管加载器。
 
 ## 内容
